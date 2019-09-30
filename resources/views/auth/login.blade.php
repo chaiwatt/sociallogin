@@ -72,6 +72,9 @@
                     <a href="{{ route('social.provider.login',['provider' => 'facebook']) }}" class="btn btn-primary btn-facebook">
                         <i class="fa fa-facebook"></i> &nbsp; Login with Facebook
                     </a>
+                    <a href="{{ route('social.provider.login',['provider' => 'google']) }}" class="btn btn-google">
+                        <i class="fa fa-google"></i> &nbsp; Login with Google
+                    </a>
                     </div>
                 </div>
                 </div>

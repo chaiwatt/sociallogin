@@ -49,7 +49,7 @@ class LoginController extends Controller
             }
             $account = new SocialAccount([
                 'provider_user_id' => $providerUser->getId(),
-                'provider' => 'facebook'
+                'provider' => $provider
             ]);
             $account->user()->associate($user);
             $account->save();

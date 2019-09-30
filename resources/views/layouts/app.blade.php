@@ -16,6 +16,11 @@
         background-color: #4267b2 !important;
         border-bottom: 1px solid #4267b2 !important;
         }
+        .btn-google{
+        color : white !important;
+        background-color: #f5a623 !important;
+        border-bottom: 1px solid #f5a623 !important;
+        }
     </style>
 
     <!-- Scripts -->
