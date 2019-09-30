@@ -40,7 +40,7 @@ class LoginController extends Controller
         }else{
             $user = User::whereEmail($providerUser->getEmail())->first();
           
-            if (!$user) {
+            if (!Empty($user)) {
                 $user = User::create([
                   'email' => $providerUser->getEmail(),
                   'name' => $providerUser->getName(),
